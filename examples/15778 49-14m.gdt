@@ -1,0 +1,116 @@
+Feature; Measurement; Nominal; UpperTolerance/LowerTolerance; Actual; Deviation
+
+TIP TE 1; Distance.N; ; 0.203000/-0.203000; ; -0.214384
+
+TIP LE 1; Distance.N; ; 0.203000/-0.203000; ; -0.109886
+
+TIP LE 2; Distance.N; ; 0.203000/-0.203000; ; -0.140157
+
+TIP TE 2; Distance.N; ; 0.203000/-0.203000; ; -0.169103
+
+Flag TE; Distance.N; ; 0.203000/-0.203000; ; -0.051537
+
+TE Edge 1; Distance.N; ; 0.203000/-0.203000; ; -0.048162
+
+TE Edge 2; Distance.N; ; 0.203000/-0.203000; ; -0.052884
+
+TE Edge 3; Distance.N; ; 0.203000/-0.203000; ; -0.058116
+
+TE Edge 4; Distance.N; ; 0.203000/-0.203000; ; -0.056198
+
+TE Edge 5; Distance.N; ; 0.203000/-0.203000; ; -0.075218
+
+TE Edge 6; Distance.N; ; 0.203000/-0.203000; ; -0.024076
+
+TE Inner 1; Distance.N; ; 0.203000/-0.203000; ; -0.040260
+
+TE Inner 2; Distance.N; ; 0.203000/-0.203000; ; -0.037691
+
+TE Inner 3; Distance.N; ; 0.203000/-0.203000; ; -0.066950
+
+TE Inner 4; Distance.N; ; 0.203000/-0.203000; ; -0.088460
+
+TE Inner 5; Distance.N; ; 0.203000/-0.203000; ; -0.070308
+
+TE Inner 6; Distance.N; ; 0.203000/-0.203000; ; -0.040586
+
+LE 1; Distance.N; ; 0.203000/-0.203000; ; -0.077431
+
+LE 2; Distance.N; ; 0.203000/-0.203000; ; -0.078860
+
+LE 3; Distance.N; ; 0.203000/-0.203000; ; -0.079243
+
+LE 4; Distance.N; ; 0.203000/-0.203000; ; -0.086016
+
+LE 5; Distance.N; ; 0.203000/-0.203000; ; -0.116885
+
+LE 6; Distance.N; ; 0.203000/-0.203000; ; -0.145570
+
+LE 7; Distance.N; ; 0.203000/-0.203000; ; -0.143022
+
+Root Leg 1; Distance.N; ; 0.203000/-0.203000; ; -0.048836
+
+Root Leg 2; Distance.N; ; 0.203000/-0.203000; ; 0.125886
+
+Root Leg 3; Distance.N; ; 0.203000/-0.203000; ; -0.035892
+
+Root Leg 4; Distance.N; ; 0.203000/-0.203000; ; -0.086302
+
+Shell Lock 1; Distance.N; ; 0.203000/-0.203000; ; -0.000352
+
+Shell Lock 3; Distance.N; ; 0.203000/-0.203000; ; -0.440728
+
+RPS Point (2679M19P01_TE_INT_EAGLE_2_CMM_01222016_pt1)_Y; Position.Y; 3.244850; 0.025400/-0.025400; 3.244850; 0.000000
+
+RPS Point (2679M19P01_TE_INT_EAGLE_2_CMM_01222016_pt2)_X; Position.X; 33.705849; 0.025400/-0.025400; 33.705849; -0.000000
+
+RPS Point (2679M19P01_TE_INT_EAGLE_2_CMM_01222016_pt3)_X; Position.X; 33.652764; 0.025400/-0.025400; 33.652764; 0.000000
+
+RPS Point (2679M19P01_TE_INT_EAGLE_2_CMM_01222016_pt4)_Z; Position.Z; 499.580493; 0.025400/-0.025400; 499.580493; 0.000000
+
+RPS Point (2679M19P01_TE_INT_EAGLE_2_CMM_01222016_pt5)_X; Position.X; 25.764109; 0.025400/-0.025400; 25.764109; 0.000000
+
+RPS Point (2679M19P01_TE_INT_EAGLE_2_CMM_01222016_pt6)_Y; Position.Y; -4.517142; 0.025400/-0.025400; -4.517142; -0.000000
+
+Comparison Point_76; Position; ; 0.200000/0.000000; ; 
+Comparison Point_76; Position.X; 30.171377; 0.100000/-0.100000; ; 
+Comparison Point_76; Position.Y; -10.295092; 0.100000/-0.100000; ; 
+Comparison Point_76; Position.Z; 498.380626; 0.100000/-0.100000; ; 
+Comparison Point_76; Distance.3D; ; 0.100000/-0.100000; ; 
+
+Comparison Point_77; Position; ; 0.200000/0.000000; ; 
+Comparison Point_77; Position.X; 30.897419; 0.100000/-0.100000; ; 
+Comparison Point_77; Position.Y; -9.401311; 0.100000/-0.100000; ; 
+Comparison Point_77; Position.Z; 497.347243; 0.100000/-0.100000; ; 
+Comparison Point_77; Distance.3D; ; 0.100000/-0.100000; ; 
+
+Comparison Point_78; Position; ; 0.200000/0.000000; ; 
+Comparison Point_78; Position.X; 29.539221; 0.100000/-0.100000; ; 
+Comparison Point_78; Position.Y; -5.091893; 0.100000/-0.100000; ; 
+Comparison Point_78; Position.Z; 498.091288; 0.100000/-0.100000; ; 
+Comparison Point_78; Distance.3D; ; 0.100000/-0.100000; ; 
+
+Comparison Point_79; Position; ; 0.200000/0.000000; ; 
+Comparison Point_79; Position.X; 31.174729; 0.100000/-0.100000; ; 
+Comparison Point_79; Position.Y; -9.192700; 0.100000/-0.100000; ; 
+Comparison Point_79; Position.Z; 491.128920; 0.100000/-0.100000; ; 
+Comparison Point_79; Distance.3D; ; 0.100000/-0.100000; ; 
+
+Comparison Point_80; Position; ; 0.200000/0.000000; ; 
+Comparison Point_80; Position.X; 30.122199; 0.100000/-0.100000; ; 
+Comparison Point_80; Position.Y; -5.537646; 0.100000/-0.100000; ; 
+Comparison Point_80; Position.Z; 491.180492; 0.100000/-0.100000; ; 
+Comparison Point_80; Distance.3D; ; 0.100000/-0.100000; ; 
+
+RPS Point (2679M19P01_TE_INT_EAGLE_2_CMM_01222016_pt6)_Y*; Position.Y; -4.517142; 0.100000/-0.100000; -4.517142; -0.000000
+
+RPS Point (2679M19P01_TE_INT_EAGLE_2_CMM_01222016_pt5)_X*; Position.X; 25.764109; 0.100000/-0.100000; 25.764109; 0.000000
+
+RPS Point (2679M19P01_TE_INT_EAGLE_2_CMM_01222016_pt4)_Z*; Position.Z; 499.580493; 0.100000/-0.100000; 499.580493; 0.000000
+
+RPS Point (2679M19P01_TE_INT_EAGLE_2_CMM_01222016_pt3)_X*; Position.X; 33.652764; 0.100000/-0.100000; 33.652764; 0.000000
+
+RPS Point (2679M19P01_TE_INT_EAGLE_2_CMM_01222016_pt2)_X*; Position.X; 33.705849; 0.100000/-0.100000; 33.705849; -0.000000
+
+RPS Point (2679M19P01_TE_INT_EAGLE_2_CMM_01222016_pt1)_Y*; Position.Y; 3.244850; 0.100000/-0.100000; 3.244850; 0.000000
+

@@ -1,0 +1,32 @@
+Feature; Measurement; Nominal; UpperTolerance/LowerTolerance; Actual; Deviation
+
+RPS Point (Point_1)_X; Position.X; 1.028710; 0.100000/-0.100000; 1.028553; -0.000156
+
+RPS Point (Point_2)_X; Position.X; 6.686633; 0.100000/-0.100000; 6.686670; 0.000036
+
+RPS Point (Point_3)_Y; Position.Y; 2.405853; 0.100000/-0.100000; 2.406028; 0.000174
+
+RPS Point (Point_4)_Y; Position.Y; 3.524737; 0.100000/-0.100000; 3.524865; 0.000128
+
+RPS Point (Point_5)_Y; Position.Y; 13.530931; 0.100000/-0.100000; 13.530291; -0.000640
+
+RPS Point (Point_6)_Z; Position.Z; 410.756683; 0.100000/-0.100000; 410.756681; -0.000002
+
+Comparison Point (Point_8); Distance.N; ; 0.200000/-0.200000; ; -0.135547
+
+Comparison Point (Point_9); Distance.N; ; 0.200000/-0.200000; ; 0.232420
+
+Comparison Point (Point_10); Distance.N; ; 0.200000/-0.200000; ; 0.194520
+
+Comparison Point (Point_12); Distance.N; ; 0.200000/-0.200000; ; 0.134253
+
+Comparison Point (Point_13); Distance.N; ; 0.200000/-0.200000; ; 0.150608
+
+Comparison Point (Point_14); Distance.N; ; 0.200000/-0.200000; ; 0.141812
+
+Comparison Point (Point_15); Distance.N; ; 0.200000/-0.200000; ; 0.099134
+
+Comparison Point (Point_16); Distance.N; ; 0.200000/-0.200000; ; 0.080568
+
+Comparison Point (Point_17); Distance.N; ; 0.200000/-0.200000; ; 0.071678
+
