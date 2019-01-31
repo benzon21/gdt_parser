@@ -1,6 +1,5 @@
 import os, csv
 from datetime import datetime
-from pymsgbox import alert
 
 class BlueLightComplier:
 	data = {}
@@ -62,13 +61,6 @@ class BlueLightComplier:
 					self.gdt_parser(file,"mm")
 
 data_folder = "{0}\\Data".format(os.getcwd())
-
-if not os.path.exists(data_folder):
-	print("There's no data folder!")
-	try:
-		os.makedirs(data_folder)
-	except Exception:
-		alert("Please make a Data Folder","No Folder Found")
 		
 bl = BlueLightComplier()
 
