@@ -1,5 +1,6 @@
 import os, csv
 from datetime import datetime
+from xlsxwriter import Workbook
 
 class BlueLightComplier:
 	data = {}
@@ -52,6 +53,46 @@ class BlueLightComplier:
 				for val in values:
 					ws.writerow(val)
 					
+	def _column_letter(self,col_idx):
+		letters = []
+		while col_idx > 0:
+			col_idx, remainder = divmod(col_idx, 26)
+			if remainder == 0:
+				remainder = 26
+				col_idx -= 1
+			letters.append(chr(remainder+64))
+		return ''.join(reversed(letters))
+		
+	def to_xlsx(self,location=curr_dir):
+		for key, values in self.data.items():
+			xlsx_file = "{0}//{1}.xlsx".format(location,key)
+			workbook = Workbook(xlsx_file)
+			worksheet = workbook.add_worksheet()
+			for idx,val in enumerate(values):
+				loc = "A" + str(idx + 1)
+				worksheet.write_row(loc, val)
+				
+			#conditional formatting
+			fail_color = workbook.add_format({'bg_color': '#FFC7CE',
+                               'font_color': '#9C0006'})
+			pass_color = workbook.add_format({'bg_color': '#C6EFCE',
+                               'font_color': '#006100'})
+			last_cell = self._column_letter(len(values[-1])) + str(len(values))
+			limits = (-0.008,0.008) if 'in' in key else (-0.2,0.2)
+			worksheet.conditional_format('B2:'+last_cell,{'type' : 'cell',
+														 'criteria' : 'between',
+														 'minimum' : limits[0],
+														 'maximum' : limits[1],
+														 'format' : pass_color
+														})
+			worksheet.conditional_format('B2:'+last_cell,{'type' : 'cell',
+														 'criteria' : 'not between',
+														 'minimum' : limits[0],
+														 'maximum' : limits[1],
+														 'format' : fail_color
+														})
+			workbook.close()
+					
 	def load_gdt(self,location=curr_dir):
 		for root, dirs, files in os.walk(location):
 			for file in files:
@@ -67,3 +108,4 @@ bl = BlueLightComplier()
 bl.load_gdt(data_folder)
 
 bl.to_csv()
+#bl.to_xlsx()
